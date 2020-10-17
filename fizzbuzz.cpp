@@ -3,7 +3,7 @@ using namespace std;
 int main(){
   for(int i = 1 ; i < 101 ; i++){
 
-    
+    clrscr();
     if(i % 3 == 0 && i % 5 == 0){
       cout << "FizzBuzz\n";
     }else if(i % 5 == 0 && i!=0){
